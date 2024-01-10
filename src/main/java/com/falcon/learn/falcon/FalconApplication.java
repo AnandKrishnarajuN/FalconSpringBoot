@@ -11,7 +11,8 @@ public class FalconApplication {
 
 	@GetMapping("/")
 	public String index(){
-		return "Hello! Falcon!!!";
+		String message = "Step 1";
+		return "Hello! Falcon!!!" + message;
 	}
 
 	public static void main(String[] args) {
